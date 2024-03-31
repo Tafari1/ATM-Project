@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  position: relative;
+  background-image: url("cyber\ lock.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+form {
+  border: dashed black 5px;
+  margin-top: 100px;
+  height: 300px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(6, 23, 41, 0.98);
+}
+
+.Container-ATM {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#btn-Enter {
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 5px;
+  margin-top: 18px;
+  font-family: "Workbench", sans-serif;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+  background-color: #1974b2;
+  border-radius: 15px;
+  border: none;
+}
+
+#btn-Enter:hover {
+  background-color: green;
+}
+
+#btn-clear {
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 8px;
+  margin-top: 18px;
+  font-family: "Workbench", sans-serif;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+  background-image: linear-gradient(#061729, #1974b2);
+  border-radius: 15px;
+  border: none;
+}
+
+#btn-clear:hover {
+  color: red;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: "Workbench", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "BLED" 0, "SCAN" 0;
+  color: wheat;
+  text-shadow: 5px 19px 1px #0b3446;
+  text-align: center;
+}
+
+label {
+  color: antiquewhite;
+  font-weight: bolder;
+  font-family: "Workbench", sans-serif;
+}
+
+#PIN {
+  margin-left: 8px;
+  margin-top: -2px;
+  margin-bottom: 15px;
+}
+
+:placeholder-shown {
+  font-family: "Workbench", sans-serif;
+}
